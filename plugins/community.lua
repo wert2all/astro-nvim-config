@@ -10,6 +10,5 @@ return {
   { import = "astrocommunity.pack.php" },
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.colorscheme.gruvbox-nvim" },
-  { import = "astrocommunity.colorscheme.gruvbox-baby" },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
 }
