@@ -1,7 +1,12 @@
 return {
+  {
+    "rebelot/heirline.nvim",
+    opts = function(_, opts)
+      opts.tabline = nil
+      return opts
+    end,
+  },
   -- customize alpha options
-  { "rebelot/heirline.nvim", enabled = false },
-
   -- You can disable default plugins as follows:
   -- { "max397574/better-escape.nvim", enabled = false },
   --
