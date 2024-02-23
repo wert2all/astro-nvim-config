@@ -1,12 +1,25 @@
 return {
+  -- customize alpha options
   {
-    "rebelot/heirline.nvim",
+    "goolord/alpha-nvim",
     opts = function(_, opts)
-      opts.tabline = nil
+      -- customize the dashboard header
+      opts.section.header.val = {
+        " █████  ███████ ████████ ██████   ██████",
+        "██   ██ ██         ██    ██   ██ ██    ██",
+        "███████ ███████    ██    ██████  ██    ██",
+        "██   ██      ██    ██    ██   ██ ██    ██",
+        "██   ██ ███████    ██    ██   ██  ██████",
+        " ",
+        "    ███    ██ ██    ██ ██ ███    ███",
+        "    ████   ██ ██    ██ ██ ████  ████",
+        "    ██ ██  ██ ██    ██ ██ ██ ████ ██",
+        "    ██  ██ ██  ██  ██  ██ ██  ██  ██",
+        "    ██   ████   ████   ██ ██      ██",
+      }
       return opts
     end,
   },
-  -- customize alpha options
   -- You can disable default plugins as follows:
   -- { "max397574/better-escape.nvim", enabled = false },
   --
